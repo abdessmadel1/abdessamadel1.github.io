@@ -30,7 +30,7 @@
 
     <div class="container mt-3">
         <h2>Alta de clientes</h2>
-        <form action="" class="was-validated text-justify py-3">
+        <form method="post" action="infoadicional.html" class="was-validated text-justify py-3">
             <div class="mb-3 mt-3">
                 <label for="nombre" class="form-label">Nombre (3-20 letras)</label>
                 <input type="text" class="form-control" id="name" name="nombre" placeholder="Pon tu nombre" required pattern="[a-zA-Z]{3,20}">
@@ -45,7 +45,7 @@
             <div class="valid-feedback">Formato Correcto</div>
             <div class="invalid-feedback">No cumple el formato</div>
             </div>
-            <button type="submit" class="btn btn-success" onclick="location.href='infoadicional.html'">Siguiente</button>
+            <button type="submit" class="btn btn-success">Siguiente</button>
         </form>
     </div>
     <footer class=" text-white text-center py-3 bg-dark mt-4">
