@@ -1,0 +1,18 @@
+body{
+    font-family: "Josefin Sans", serif;
+}
+td img{
+    width: 100px;;
+    align-content: center;
+    height: 100px;
+    margin: 0;
+}
+table{
+    text-align: center;
+
+}
+footer {
+    bottom:0px;
+    top: auto;
+    width:100%;
+ }

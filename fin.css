@@ -1,0 +1,13 @@
+body{
+    font-family: "Josefin Sans", serif;
+}
+footer {
+    position: fixed;
+    bottom:0px;
+    top: auto;
+    width:100%;
+ }
+ img{
+    width: 100px;
+    height: 100px;
+ }

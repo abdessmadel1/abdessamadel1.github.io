@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tienda Online</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link disabled" id="cliente-tab" href="datosCliente.html">Datos Cliente</a></li>
+                    <li class="nav-item"><a class="nav-link disabled" id="adicional-tab" href="infoadicional.html">Información Adicional</a></li>
+                    <li class="nav-item"><a class="nav-link disabled" id="pedido-tab" href="pedido.html">Pedido</a></li>
+                    <li class="nav-item"><a class="nav-link disabled" id="pago-tab" href="datospago.html">Datos de Pago</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4" id="contenido">
+        <h2> <strong>Bienvenido a la tienda online de Abdessamad</strong></h2> 
+        <p>Para adquirir objetos pulse en el botón de abajo y rellene los datos</p> 
+        <a href="datoscliente.html" class="btn btn-success">Comprar</a>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container text-center">
+            <p><strong>Contacto</strong></p>
+            <p>Empresa: Abde Informatics & Hardware</p>
+            <p>Teléfono: 664239078</p>
+            <p>Email: abdessamad.el1@educa.madrid.org</p>        
+        </div>
+    </footer>
+</body>
+</html>
